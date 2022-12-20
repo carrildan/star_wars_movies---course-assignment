@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: FINAL PROJECT</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>CS121B FINAL PROJECT</h1>
+        <h2>Star Wars Movies</h2>
+    </header>
+    <main>
+        <section>
+            <h3>
+                <span id="message1"></span>
+            </h3>
+        </section>
+        <hr>
+        <section>
+            <p>
+                Sort by: 
+                <select id="sortBy">
+                    <option value="movieNameAscending">Movie Name Ascending</option>
+                    <option value="movieNameDescending">Movie Name Descending</option>
+                </select>
+            </p>
+            <div class="seconds"></div>
+            <!--<h3>Cick the Button and wait a few seconds</h3>-->
+            <button id="buttonLoad">Load</button>
+            <div id="movies">
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Controlling Your Code | Lesson 5
+    </footer>
+    <script src="script/main.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
